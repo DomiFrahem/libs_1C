@@ -8,13 +8,13 @@ git clone http://tj.kbsu.ru/AlexSidorov/install_1C_8.3.17.git
 
 ## copy all libs
 ```
-# cp install_1C_8.3.17/*so* /opt/1C/v8.3/x86_64/ 
+sudo cp install_1C_8.3.17/*so* /opt/1C/v8.3/x86_64/ 
 ```
 
 ## create links
 ```
-# ln -s /opt/1C/v8.3/x86_64/libjavascriptcoregtk-3.0.so.0.16.19 /opt/1C/v8.3/x86_64/libjavascriptcoregtk-3.0.so.0
-# ln -s /opt/1C/v8.3/x86_64/libwebkitgtk-3.0.so.0.22.17 /opt/1C/v8.3/x86_64/libwebkitgtk-3.0.so.0
+sudo ln -s /opt/1C/v8.3/x86_64/libjavascriptcoregtk-3.0.so.0.16.19 /opt/1C/v8.3/x86_64/libjavascriptcoregtk-3.0.so.0
+sudo ln -s /opt/1C/v8.3/x86_64/libwebkitgtk-3.0.so.0.22.17 /opt/1C/v8.3/x86_64/libwebkitgtk-3.0.so.0
 ```
 
 ## delete libstdc++.so.6
@@ -22,7 +22,7 @@ git clone http://tj.kbsu.ru/AlexSidorov/install_1C_8.3.17.git
 Не разбирался, но эта штука просто мешает
 
 ```
-# rm /opt/1C/v8.3/x86_64/libstdc++.so.6
+sudo rm /opt/1C/v8.3/x86_64/libstdc++.so.6
 ```
 
 ## Конец
