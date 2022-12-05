@@ -3,13 +3,9 @@
 ## load libs
 
 ```
-git clone http://tj.kbsu.ru/AlexSidorov/install_1C_8.3.17.git
+git clone https://github.com/DomiFrahem/libs_1C.git
 ```
-
-## copy all libs
-### 1C_8.3.17
-```
-sudo cp install_1C_8.3.19/*so* /opt/1C/v8.3/x86_64/ 
+sudo cp libs_1C/*so* /opt/1C/v8.3/x86_64/ 
 ```
 ### 1C_8.3.19
 ```
