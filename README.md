@@ -16,7 +16,8 @@ sudo cp install_1C_8.3.19/*so* /opt/1C/v8.3/x86_64/
 sudo cp install_1C_8.3.19/*so* /opt/1cv8/x86_64/8.3.19.1723/
 ```
 
-## create links 1C_8.3.17
+## create links
+### 1C_8.3.17
 ```
 sudo ln -s /opt/1C/v8.3/x86_64/libicui18n.so.60.3 /opt/1C/v8.3/x86_64/libicui18n.so.60
 sudo ln -s /opt/1C/v8.3/x86_64/libicuuc.so.60.3 /opt/1C/v8.3/x86_64/libicuuc.so.60
@@ -24,8 +25,7 @@ sudo ln -s /opt/1C/v8.3/x86_64/libicudata.so.60.3 /opt/1C/v8.3/x86_64/libicudata
 sudo ln -s /opt/1C/v8.3/x86_64/libjavascriptcoregtk-3.0.so.0.16.19 /opt/1C/v8.3/x86_64/libjavascriptcoregtk-3.0.so.0
 sudo ln -s /opt/1C/v8.3/x86_64/libwebkitgtk-3.0.so.0.22.17 /opt/1C/v8.3/x86_64/libwebkitgtk-3.0.so.0
 ```
-
-## create links 1C_8.3.19
+### 1C_8.3.19
 ```
 sudo ln -s /opt/1cv8/x86_64/8.3.19.1723/libicui18n.so.60.3 /opt/1cv8/x86_64/8.3.19.1723/libicui18n.so.60
 sudo ln -s /opt/1cv8/x86_64/8.3.19.1723/libicuuc.so.60.3 /opt/1cv8/x86_64/8.3.19.1723/libicuuc.so.60
