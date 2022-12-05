@@ -4,9 +4,12 @@
 
 ```
 git clone https://github.com/DomiFrahem/libs_1C.git
+
+### 1C_8.3.17
 ```
 sudo cp libs_1C/*so* /opt/1C/v8.3/x86_64/ 
 ```
+
 ### 1C_8.3.19
 ```
 sudo cp install_1C_8.3.19/*so* /opt/1cv8/x86_64/8.3.19.1723/
